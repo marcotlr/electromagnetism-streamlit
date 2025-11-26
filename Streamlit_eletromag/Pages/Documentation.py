@@ -3,7 +3,7 @@ import streamlit as st
 st.title("How to use SciMagNet")
 st.markdown(    
     """
-    Go to the page "Coil" in section "Package" to use the interface. If want to use package direct in python, install the package using: pip install scimagnet or acesss the repository at [GitHub](
+    Go to the page "Coil" in section "Package" to use the interface. If want to use package direct in python, install the package using: pip install scimagnet or acesss the repository at https://github.com/romulorcruz/SciMagnet-lib 
     """
 )
 
@@ -35,11 +35,11 @@ st.markdown(
 
     We are advised and supported by the following collaborators:
 
-    - **Lucas Henrique Francisco** – SME  
-    - **João Henrique Ramos da Silva** – Master's student at **Universität Rostock** 
-    - **Ivan Prearo** – PhD student at Unicamp 
     - **Andrei Guinancio de Carvalho Pereira** – COM
     - **Eduardo Moraes Ferrari** – COM  
+    - **Ivan Prearo** – PhD student at Unicamp
+    - **João Henrique Ramos da Silva** – Master's student at **Universität Rostock** 
+    - **Lucas Henrique Francisco** – SME  
     - **Sofia Garcia Telles Brito** – COM  
 
     Together with our supervisors, we are building an open, extensible tool to support the design and analysis of electromagnets used in CNPEM’s scientific facilities.
@@ -48,7 +48,7 @@ st.markdown(
 
 )
 
-st.info("If you have any questions, suggestions, or would like to contribute to the project, please feel free to reach out to us at ")
+st.info("If you have any questions, suggestions, or would like to contribute to the project, please feel free to reach out to us at romulorabelocruz@gmail.com or marcotlr2312@gmail.com.")
 st.markdown(
     """
     <hr>
