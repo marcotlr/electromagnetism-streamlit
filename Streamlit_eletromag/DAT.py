@@ -20,7 +20,7 @@ Documentation = st.Page(
 # )
 
 coil_page = st.Page(
-    page="Pages/coil.py",
+    page="Pages/Coil.py",
     title= "Coil",
     icon= ":material/bolt:",
 )
@@ -29,6 +29,8 @@ IMG_PATH = "assets/Ilum.png"   # ajuste o caminho se estiver em outra pasta, ex:
 with st.sidebar:
     # imagem no topo da sidebar
     st.image(IMG_PATH, use_container_width=True)
+    st.markdown("## SciMagNet")
+    st.caption("Interface for the SciMag electromagnet library")
 
 pg = st.navigation({
     "Info": [Documentation],
